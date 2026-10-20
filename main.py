@@ -1,10 +1,24 @@
 def calcular_medidas(base: float, altura: float) -> tuple[float, float]:
 
+    """
+    :param base:Se introduce para comparar
+    :param altura:Se introduce para comparar
+    :return:Devuelve el perimetro y el area
+
+    """
+
     perimetro:float = (base * 2) + (altura * 2)
     area:float = base * altura
     return area, perimetro
 
 def determinar_forma(base: float, altura: float) -> str:
+    """
+    :param base:Se introduce para comparar la forma
+    :param base:Se introduce para comparar la forma
+    :param return:Devuelve la forma del cuadrado
+
+    """
+    
     if base == altura:
         return "cuadrado"
 
